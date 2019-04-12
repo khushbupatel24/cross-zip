@@ -82,7 +82,7 @@ function getZipCommand (inPath, outPath) {
     if(fileName !== '*')
       return `cd ${JSON.stringify(dirPath)} && zip -r -y ${JSON.stringify(outPath)} ${JSON.stringify(fileName)}}`
     else
-      return `cd ${JSON.stringify(dirPath)} && zip -r -y ${JSON.stringify(outPath)} *}`
+      return `cd ${JSON.stringify(dirPath)} && zip -r -y ${JSON.stringify(outPath)} *`
   }
 }
 
